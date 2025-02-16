@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LIFFアプリ</title>
+    <script src="https://static.line-scdn.net/liff/edge/2.1/sdk.js"></script>
+    <style>
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+      }
+      #loading {
+        display: none;
+        margin: 20px 0;
+      }
+      #error {
+        display: none;
+        color: red;
+        margin: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- <h1>LIFFアプリ</h1> -->
+      <div id="loading">Loading...</div>
+      <div id="error"></div>
+    </div>
+    <script src="js/liff-init.js"></script>
+  </body>
+</html>
